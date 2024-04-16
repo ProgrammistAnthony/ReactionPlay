@@ -5,21 +5,21 @@ const averageScore = document.querySelector(`.mid__score`);
 let data = [];
 let lastTime = Date.now();
 const images = [
-    '../img/ball.png',
-    '../img/ballblue.png',
-    '../img/ballon.png',
-    '../img/basketball.png',
-    '../img/basketball2.png',
-    '../img/beachball.png',
-    '../img/beysball.png',
-    '../img/cricket.png',
-    '../img/football.png',
-    '../img/loto.png',
-    '../img/pokemonball.png',
-    '../img/pullball.png',
-    '../img/regbi.png',
-    '../img/squash.png',
-    '../img/ballonblue.png'
+    './img/ballblue.png',
+    './img/ball.png',
+    './img/ballon.png',
+    './img/basketball.png',
+    './img/basketball2.png',
+    './img/beachball.png',
+    './img/beysball.png',
+    './img/cricket.png',
+    './img/football.png',
+    './img/loto.png',
+    './img/pokemonball.png',
+    './img/pullball.png',
+    './img/regbi.png',
+    './img/squash.png',
+    './img/ballonblue.png'
 ];
 
 const getAverage = () => {
